@@ -1,0 +1,36 @@
+[submodule "references/WebXR"]
+	path = references/WebXR
+	url = https://github.com/immersive-web/webxr.git
+	branch = main
+[submodule "references/WebXR-AR-Module"]
+	path = references/WebXR-AR-Module
+	url = https://github.com/immersive-web/webxr-ar-module.git
+	branch = main
+[submodule "references/WebXR-Hit-Test"]
+	path = references/WebXR-Hit-Test
+	url = https://github.com/immersive-web/hit-test.git
+	branch = main
+[submodule "references/WebXR-Anchors"]
+	path = references/WebXR-Anchors
+	url = https://github.com/immersive-web/anchors.git
+	branch = main
+[submodule "references/WebXR-Layers"]
+	path = references/WebXR-Layers
+	url = https://github.com/immersive-web/layers.git
+	branch = main
+[submodule "references/WebXR-Hand-Input"]
+	path = references/WebXR-Hand-Input
+	url = https://github.com/immersive-web/webxr-hand-input.git
+	branch = main
+[submodule "references/WebXR-Gamepads"]
+	path = references/WebXR-Gamepads
+	url = https://github.com/immersive-web/webxr-gamepads-module.git
+	branch = main
+[submodule "references/WebXR-Input-Profiles"]
+	path = references/WebXR-Input-Profiles
+	url = https://github.com/immersive-web/webxr-input-profiles.git
+	branch = main
+[submodule "references/WebXR-Samples"]
+	path = references/WebXR-Samples
+	url = https://github.com/immersive-web/webxr-samples.git
+	branch = main

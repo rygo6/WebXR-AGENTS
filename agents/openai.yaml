@@ -1,0 +1,4 @@
+interface:
+  display_name: "WebXR-Agents"
+  short_description: "Local WebXR specs and runnable samples"
+  default_prompt: "Use $webxr to answer this WebXR question from the local specification and sample repositories."

@@ -32,6 +32,13 @@ ln -s ~/.agents/skills/webxr ~/.claude/skills/webxr
 ln -s ~/.agents/skills/webxr ~/.codex/skills/webxr
 ```
 
+On Windows, use `mklink /J` to create a junction instead (run in `cmd`, no admin rights needed):
+
+```bat
+mklink /J "%USERPROFILE%\.claude\skills\webxr" "%USERPROFILE%\.agents\skills\webxr"
+mklink /J "%USERPROFILE%\.codex\skills\webxr"  "%USERPROFILE%\.agents\skills\webxr"
+```
+
 ## Usage
 
 Once installed, invoke `/webxr` from any agent that supports skills.

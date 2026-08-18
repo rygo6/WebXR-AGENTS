@@ -18,11 +18,19 @@ An agent skill that answers WebXR questions using locally cloned specifications,
 
 ## Installation
 
-Clone with `--recurse-submodules` because the reference repositories are Git submodules:
+Install once into the shared agent skills directory, then symlink it into each agent's skills folder.
+
+The reference repos are git submodules. Initialize them one level deep only — they are read-only
+references that are never built, so nested build dependencies are pure overhead:
 
 ```bash
-git clone --recurse-submodules git@github.com:rygo6/WebXR-AGENTS.git ~/.agents/skills/webxr
+git clone git@github.com:rygo6/WebXR-AGENTS.git ~/.agents/skills/webxr
+cd ~/.agents/skills/webxr
+git submodule update --init
+git submodule update --remote
 ```
+
+Do not pass `--recursive` or clone with `--recurse-submodules`.
 
 Then link it into the agents you use:
 
